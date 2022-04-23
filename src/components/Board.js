@@ -114,7 +114,7 @@ const Board = () => {
       </div>
       <div>
         <div>{status}</div>
-        <h2>Point :</h2>
+        <h2>Point </h2>
         <h2>X : {state.point.X}</h2>
         <h2>O : {state.point.O}</h2>
       </div>

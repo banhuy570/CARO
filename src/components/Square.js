@@ -4,7 +4,7 @@ const style = {
   width: "100px",
   height: "100px",
   background: "transparent",
-  border: "1px solid black"
+  border: "2px solid black"
 };
 const Square = ({ data, index, handleClick }) => {
   const handleRender = () => {
