@@ -46,9 +46,7 @@ function LocatePlayer2(board, player) {
 }
 
 function App() {
-  // useEffect(() => {
-  //   alert("ARE YOU READY !!!");
-  // }, []);
+
   const [board, setBoard] = useState(Array(9).fill(""));
   const [isStopGame, setIsStopGame] = useState(false);
   const [noti, setNoti] = useState("");
